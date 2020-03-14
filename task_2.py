@@ -10,6 +10,6 @@ def task_1_2():
     move_down(2)
     fill_cell()
     move_right(2)
-    move_down(1)
+    move_down(2)
 if __name__ == '__main__':
     run_tasks()

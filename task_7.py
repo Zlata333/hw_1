@@ -4,8 +4,7 @@ from pyrob.api import *
 
 
 @task
-def task_5_4():
-    pass
+def ta    pass
 
 
 if __name__ == '__main__':

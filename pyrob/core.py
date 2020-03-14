@@ -145,7 +145,11 @@ def wall_is_above():
 
 @log_invocation
 @public
-def wall_is_beneath():
+def wall_is_beneath() -> object:
+    """
+
+    :rtype: 
+    """
     return is_blocked(None, None, WALL_BOTTOM)
 
 
@@ -234,7 +238,7 @@ def move_right(n=1):
 
 @log_invocation
 @public
-def move_up(n=1):
+def move_up(n=1) -> object:
     repeat(n, step_up)
 
 
